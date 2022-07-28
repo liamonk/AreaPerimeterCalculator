@@ -22,11 +22,9 @@ def num_check(question):
             print(error)
 
 width = num_check("Width?")
-print(width)
 height = num_check("Height?")
-print(height)
 
 area = width*height
-print("The area is {}" .format(area))
+print("The area is {} square units" .format(area))
 perimeter = 2*width+2*height
-print("The perimeter is {}" .format(perimeter))
+print("The perimeter is {} units" .format(perimeter))
