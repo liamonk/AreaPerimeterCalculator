@@ -32,8 +32,8 @@ keep_going = ""
 while keep_going =="":
 
         print()
-        width = num_check("Width?")
-        height = num_check("Height?")
+        width = num_check("What is the width of your rectangle?")
+        height = num_check("What is the height of your rectangle?")
 
         area = width*height
         print("The area is {:.4f} square units" .format(area))
